@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CurlyBraces Website</title>
+
+    <meta property="og:title" content="CurlyBraces" />
+    <meta
+      property="og:description"
+      content="Développement d'applications et de logiciels personnalisés pour les systèmes informatiques"
+    />
+    <meta property="og:url" content="https://cbracesglobal.com/" />
+    <meta property="og:type" content="website" />
+
+    <meta property="og:image" content="https://cbracesglobal.com/images/cb9dbaeb7fbc2b27f33354b2dfbf94bf.png/" />
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="100" />
+    <link rel="icon" type="image/x-icon" href="{{ asset('images/icon.png') }}" />
+
     @vite('resources/css/app.css')
     <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>

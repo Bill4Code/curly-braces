@@ -12,7 +12,7 @@
         </div>
     </section>
 
-    {{-- <section id="offres" class="w-full bg-custom-purple-900 px-20 lg:px-5 max-lg:px-5 pb-20">
+    {{-- <section id="offres" class="w-full bg-custom-purple-900 px-20 max-lg:px-5 pb-20">
         <h2 class="text-white text-center py-20 font-bold text-5xl">OFFRES</h2>
         <div class="w-full grid grid-cols-2 gap-x-10">
             <div class="text-white ">
@@ -57,7 +57,7 @@
         </div>
     </section> --}}
 
-    <section id="offres" class="px-20 lg:px-5 max-lg:px-5 max-sm:px-2">
+    <section id="offres" class="px-20 max-lg:px-5 max-sm:px-2">
         <h2 class="text-center py-20 max-sm:py-10 font-bold text-5xl max-sm:text-3xl">OFFRES</h2>
         <div class="grid grid-cols-2 max-sm:grid-cols-1 gap-x-10 max-md:gap-x-4">
             <img class="w-full h-80 object-cover rounded-lg" src="{{ asset('images/912a2e7641287e809a79aac182525b8b.jpg') }}" alt="">
@@ -102,7 +102,7 @@
         </article>
     </section>
 
-    <section id="pourquoi" class="w-full px-20 lg:px-5 max-lg:px-5 max-sm:px-2 pb-20 mt-20 text-white bg-gray-700">
+    <section id="pourquoi" class="w-full px-20 max-lg:px-5 max-sm:px-2 pb-20 mt-20 text-white bg-gray-700">
         <h2 class="text-center py-20 max-sm:py-10 font-bold text-5xl max-sm:text-xl">Pourquoi nous choisir ?</h2>
         <div class="grid grid-cols-2 max-sm:flex max-sm:flex-col-reverse place-items-center gap-x-10">
             <p class="text-white bg-custom-purple-900 p-10 max-sm:p-5 rounded-lg">Notre spécialisation dans la transformation digitale nous permet d'accompagner efficacement les entreprises de toutes tailles et de divers secteurs. Nos experts possèdent une connaissance approfondie des technologies et des meilleures pratiques, garantissant des projets réalisés avec précision et efficacité.</p>
@@ -136,7 +136,7 @@
     <section class="w-full bg-gray-100" id="contact">
         <h2 class="text-center py-10 max-sm:py-10 font-bold text-5xl max-sm:text-xl">CONTACT</h2>
 
-        <div class="w-full grid grid-cols-2 max-sm:grid-cols-1 gap-10 max-md:gap-5 px-20 lg:px-5 max-lg:px-5 py-16 max-sm:px-4">
+        <div class="w-full grid grid-cols-2 max-sm:grid-cols-1 gap-10 max-md:gap-5 px-20 max-lg:px-5 py-16 max-sm:px-4">
             <img class="w-full h-[400px] rounded-lg object-cover shrink-0 max-sm:hidden" src="{{ asset('images/anal.jpg') }}" alt="code">
             <div>
                 <h3 class="uppercase font-bold text-4xl max-md:text-xl max-sm:text-2xl">Concrétisez <br>vos solutions <br> le plus tôt possible</h3>
