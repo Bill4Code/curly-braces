@@ -11,7 +11,7 @@
             <li><a href="#clients" onclick="lenis.scrollTo('#clients')">Nos clients</a></li>
         </ul>
 
-        <a class="block px-5 py-1 bg-custom-purple-900 text-white hover:bg-custom-red-900 duration-75 ease-in rounded" href="#">Prendre RDV</a>
+        <a class="block px-5 py-1 bg-[#270665] text-white hover:bg-[#BC0045] duration-75 ease-in rounded" href="#">Prendre RDV</a>
     </div>
 </header>
 

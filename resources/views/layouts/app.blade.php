@@ -19,8 +19,8 @@
     <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="100" />
     <link rel="icon" type="image/x-icon" href="{{ asset('images/icon.png') }}" />
-
-    @vite('resources/css/app.css')
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
