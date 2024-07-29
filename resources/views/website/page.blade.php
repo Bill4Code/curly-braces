@@ -1,10 +1,10 @@
 @extends('layouts.app')
 @section('content')
-    <section id="accueil" class="w-full h-screen grid place-items-center" style="background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/cb9dbaeb7fbc2b27f33354b2dfbf94bf.png');">
+    <section id="accueil" class="w-full h-screen grid place-items-center">
         <div class="flex items-center justify-center flex-col gap-y-5 max-sm:px-2">
             <h1 class="text-center text-white font-bold text-6xl max-sm:text-3xl">Explorons demain ensemble</h1>
             <p class="text-center text-white text-lg">
-                Nous vous accompagnons dans la transformation numérique de votre entreprise <br>
+                Nous vous accompagnons dans la transformation numérique et digitale de votre entreprise <br>
                 Ventes / Marketing / Finance & Comptabilité / RH & Recrutement
             </p>
             <h2 class="text-center text-white font-bold text-2xl">Nous vous conseillons et mettons tout en place pour vous</h2>
@@ -57,7 +57,7 @@
         </div>
     </section> --}}
 
-    <section id="offres" class="px-20 max-lg:px-5 max-sm:px-2">
+    <section id="offres" class="px-20 max-lg:px-5 max-sm:px-2 pb-10 bg-white">
         <h2 class="text-center py-20 max-sm:py-10 font-bold text-5xl max-sm:text-3xl">OFFRES</h2>
         <div class="grid grid-cols-2 max-sm:grid-cols-1 gap-x-10 max-md:gap-x-4">
             <img class="w-full h-80 object-cover rounded-lg" src="{{ asset('images/912a2e7641287e809a79aac182525b8b.jpg') }}" alt="">
@@ -102,7 +102,7 @@
         </article>
     </section>
 
-    <section id="pourquoi" class="w-full px-20 max-lg:px-5 max-sm:px-2 pb-20 mt-20 text-white bg-gray-700">
+    <section id="pourquoi" class="w-full px-20 max-lg:px-5 max-sm:px-2 pb-20 text-white">
         <h2 class="text-center py-20 max-sm:py-10 font-bold text-5xl max-sm:text-xl">Pourquoi nous choisir ?</h2>
         <div class="grid grid-cols-2 max-sm:flex max-sm:flex-col-reverse place-items-center gap-x-10">
             <p class="text-white bg-[#270665] p-10 max-sm:p-5 rounded-lg">Notre spécialisation dans la transformation digitale nous permet d'accompagner efficacement les entreprises de toutes tailles et de divers secteurs. Nos experts possèdent une connaissance approfondie des technologies et des meilleures pratiques, garantissant des projets réalisés avec précision et efficacité.</p>
@@ -122,7 +122,7 @@
         </div>
     </section>
 
-    <section id="clients" class="pb-20 max-sm:px-2">
+    <section id="clients" class="pb-20 max-sm:px-2 bg-white">
         <h2 class="text-center py-20 max-sm:py-10 font-bold text-5xl max-sm:text-xl">NOS CLIENTS</h2>
 
         <div class="flex items-center justify-center max-sm:flex-col max-sm:gap-y-5 gap-x-20 max-md:gap-x-10">

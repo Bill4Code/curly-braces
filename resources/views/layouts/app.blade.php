@@ -5,23 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CurlyBraces Website</title>
+    <title>Curlybraces - Agence de Transformation Digitale</title>
+    <meta name="keywords" content="Curlybraces, transformation digitale, CBraces Global, agence digitale, services digitaux">
+    <meta name="author" content="CBraces Global">
+    <meta property="og:title" content="Curlybraces - Agence de Transformation Digitale" />
+    <meta name="description" content="Agence d'accompagnement en transformation digitale de votre entreprise">
 
-    <meta property="og:title" content="CurlyBraces" />
     <meta
       property="og:description"
-      content="Développement d'applications et de logiciels personnalisés pour les systèmes informatiques"
+      content="Agence d'accompagnement en transformation digitale de votre entreprise"
     />
+
     <meta property="og:url" content="https://cbracesglobal.com/" />
     <meta property="og:type" content="website" />
 
     <meta property="og:image" content="https://cbracesglobal.com/images/cb9dbaeb7fbc2b27f33354b2dfbf94bf.png/" />
     <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="100" />
+    <link rel="canonical" href="https://cbracesglobal.com">
+
     <link rel="icon" type="image/x-icon" href="{{ asset('images/icon.png') }}" />
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        body {
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/cb9dbaeb7fbc2b27f33354b2dfbf94bf.png');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
 </head>
 
 <body class="w-full overflow-x-hidden">
