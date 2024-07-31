@@ -12,51 +12,6 @@
         </div>
     </section>
 
-    {{-- <section id="offres" class="w-full bg-[#270665] px-20 max-lg:px-5 pb-20">
-        <h2 class="text-white text-center py-20 font-bold text-5xl">OFFRES</h2>
-        <div class="w-full grid grid-cols-2 gap-x-10">
-            <div class="text-white ">
-                <img class="w-full h-80 object-cover rounded-lg" src="{{ asset('images/912a2e7641287e809a79aac182525b8b.jpg') }}" alt="">
-                <h3 class="mt-5 mb-8 text-xl">VERS UNE TRANSFORMATION DIGITALE REUSSIE</h3>
-                <p>
-                    Nous savons que chaque entreprise est unique et mérite un accompagnement unique. 
-                    C’est pour cela que nous nous adaptons à vos réalités et procédures pour vous proposer des solutions qui sont adaptées à vos besoins.
-                </p>
-            </div>
-            <article class="grid grid-cols-2 gap-10">
-                <div class="h-[18em] rounded-lg flex items-center justify-center flex-col px-5 gap-y-3 bg-[#BC0045] text-white">
-                    <div class="w-16">
-                        <img src="{{ asset('images/3526a0c29043f96119457a32b711e732.png') }}" alt="">
-                    </div>
-                    <p class="font-bold text-center">Ventes & Marketing</p>
-                    <p class="text-center text-sm">Nous transformons, améliorons et formons vos équipes à accroître leur rendement avec nos solutions digitales </p>
-                </div>
-                <div class="h-[18em] rounded-lg flex items-center justify-center flex-col px-5 gap-y-3 bg-[#BC0045] text-white">
-                    <div class="w-16">
-                        <img src="{{ asset('images/3471a9a5a993d9b465d0a7941db73d78.png') }}" alt="">
-                    </div>
-                    <p class="font-bold text-center">Gestion financière et Stocks</p>
-                    <p class="text-center text-sm">Nous mettons en place un puissant outils de gestion (ERP) dans vos services, parfaitement connecté au reste de votre écosystème.</p>
-                </div>
-                <div class="h-[18em] rounded-lg flex items-center justify-center flex-col px-5 gap-y-3 bg-[#BC0045] text-white">
-                    <div class="w-16">
-                        <img src="{{ asset('images/2503e731aee959e6a978f45bbb0c611a.png') }}" alt="">
-                    </div>
-                    <p class="font-bold text-center">RH & Recrutement</p>
-                    <p class="text-center text-sm">Depuis le recrutement jusqu’à la gestion de carrière, simplifiez-vous la vie et celle de vos équipes avec des outils dédiés au recrutement et à la gestion des ressources humaines. </p>
-                </div>
-                <div class="h-[18em] rounded-lg flex items-center justify-center flex-col px-5 gap-y-3 bg-[#BC0045] text-white">
-                    <div class="w-16">
-                        <img src="{{ asset('images/150be60dac33fbffc3ed7573ffc2e605.png') }}" alt="">
-                    </div>
-                    <p class="font-bold text-center">Gestion de projet</p>
-                    <p class="text-center text-sm">Suivez en temps réel vos projets, assignez des tâches à vos équipes en suivant les niveaux d’éxécution, planifiez vos rendez-vous,, ...
-                        Nos outils vous permettront de faire de cela et plus encore  </p>
-                </div>
-            </article>
-        </div>
-    </section> --}}
-
     <section id="offres" class="px-20 max-lg:px-5 max-sm:px-2 pb-10 bg-white">
         <h2 class="text-center py-20 max-sm:py-10 font-bold text-5xl max-sm:text-3xl">OFFRES</h2>
         <div class="grid grid-cols-2 max-sm:grid-cols-1 gap-x-10 max-md:gap-x-4">
@@ -126,9 +81,9 @@
         <h2 class="text-center py-20 max-sm:py-10 font-bold text-5xl max-sm:text-xl">NOS CLIENTS</h2>
 
         <div class="flex items-center justify-center max-sm:flex-col max-sm:gap-y-5 gap-x-20 max-md:gap-x-10">
-            <img class="w-40 max-sm:w-full h-40 border-2 rounded-lg object-cover" src="{{ asset('images/4ffbd0132544b43eacc135add6d8386d.png') }}" alt="">
-            <img class="w-40 max-sm:w-full h-40 border-2 rounded-lg object-cover" src="{{ asset('images/5df5ca7b1130678da4534051739dd84e.png') }}" alt="">
-            <img class="w-40 max-sm:w-full h-40 border-2 rounded-lg object-cover" src="{{ asset('images/078b23e6f89ed7bebd6b7ae5f04050c0.jpg') }}" alt="">
+            <img class="w-52 max-sm:w-full h-40 border-2 rounded-lg object-cover" src="{{ asset('images/4ffbd0132544b43eacc135add6d8386d.png') }}" alt="">
+            <img class="w-52 max-sm:w-full h-40 border-2 rounded-lg object-cover" src="{{ asset('images/5df5ca7b1130678da4534051739dd84e.png') }}" alt="">
+            <img class="w-52 max-sm:w-full h-40 border-2 rounded-lg object-cover" src="{{ asset('images/078b23e6f89ed7bebd6b7ae5f04050c0.jpg') }}" alt="">
         </div>
     </section>
 
@@ -137,7 +92,7 @@
         <h2 class="text-center py-10 max-sm:py-10 font-bold text-5xl max-sm:text-xl">CONTACT</h2>
 
         <div class="w-full grid grid-cols-2 max-sm:grid-cols-1 gap-10 max-md:gap-5 px-20 max-lg:px-5 py-16 max-sm:px-4">
-            <img class="w-full h-[400px] rounded-lg object-cover shrink-0 max-sm:hidden" src="{{ asset('images/anal.jpg') }}" alt="code">
+            <img class="w-full h-[400px] rounded-lg object-cover shrink-0 max-sm:hidden" src="{{ asset('images/pexels-goumbik-590016.jpg') }}" alt="code">
             <div>
                 <h3 class="uppercase font-bold text-4xl max-md:text-xl max-sm:text-2xl">Concrétisez <br>vos solutions <br> le plus tôt possible</h3>
                 <form class="w-full mt-5" action="#">
